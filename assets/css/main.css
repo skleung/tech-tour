@@ -265,7 +265,7 @@ a:before, a:after {
 	font-weight: bold;
 	text-shadow: 0px 20px 7px #3da8ae;
 }
-#headerwrap .btn {
+#headerwrap .button {
 	font-weight: 500;
 	font-size: 20px;
 	margin: 50px 0;
@@ -275,7 +275,13 @@ a:before, a:after {
 	box-shadow: -5px -5px 20px #3da8ae;
 	border: 0;
 }
-#headerwrap .btn:hover, #headerwrap .btn:focus {
+
+#headerwrap .btn-link {
+	color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+}
+#headerwrap .button:hover, #headerwrap .button:focus {
 	background-color: #e9af03;
 	outline: 0px;
 }
