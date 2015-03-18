@@ -2,6 +2,7 @@
 .tour-list {
 	list-style-type: none;
 	font-size: 36px;
+	padding-left: 0px;
 }
 
 .tour-details {
@@ -10,6 +11,15 @@
 
 .tour-container {
 	padding-top: 180px;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+	text-align: center;
 }
 
 
@@ -89,6 +99,9 @@ body {
 .row {
 	margin-right: 0px;
 	margin-left: -15px;
+}
+.modal-dialog {
+	width: 85%;
 }
 .modal-header {
 	background: #ffbf00;
